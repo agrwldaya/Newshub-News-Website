@@ -1,0 +1,43 @@
+.body{
+  overflow-x: hidden;
+}
+.main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.items-container {
+    /* width: 100%; */
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+     
+  }
+  .spinner{
+    margin: 100px 0px;
+  }
+  .tophading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding-top: 20px;
+  }
+  .hading{
+   /* Adjust border properties as needed */
+    padding-bottom: 5px;
+  }
+.nevsec{
+   
+  width: -webkit-fill-available;
+  margin-left: 1vw;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile{
+  height: 50px;
+}
